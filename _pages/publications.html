@@ -6,18 +6,15 @@ author_profile: true
 ---
 
 
-## Publications
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
-1. *Learning pure quantum states (almost) without regret* <br>
-**J. Lumbreras**, M. Terekhov, M. Tomamichel.<br>
-[<a href="http://aqis-conf.org/2024/program" target="_blank">AQIS24 (long talk)</a>][<a href="https://arxiv.org/abs/2406.18370" target="_blank">arXiv (2024)</a>]
+{% include base_path %}
 
-1. *Linear bandits with polylogarithmic minimax regret* <br>
-**J. Lumbreras**, M. Tomamichel.<br>
-[<a href="https://proceedings.mlr.press/v247/lumbreras24a.html" target="_blank">COLT (2024)</a>][<a href="https://arxiv.org/abs/2402.12042" target="_blank">arXiv (2024)</a>]
-
-
-
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 
 
