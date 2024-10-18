@@ -2,6 +2,7 @@
 title: "Multipartite entanglement in the diagonal symmetric subspace"
 collection: publications
 permalink: /publication/Multipartite_entanglement_in_the_diagonal_symmetric_subspace
+date: 2024-03-08
 excerpt: ''
 venue: 'arXiv'
 slidesurl: #'https://arxiv.org/pdf/2403.05244'
