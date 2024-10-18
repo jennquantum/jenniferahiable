@@ -20,7 +20,7 @@ repository               : "jennquantum/jennquantum.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "file.png"
+  avatar           : "jenn.jpg"
   name             : "Jennifer Ahiable"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Student at the Quantum Information Group @ Autonomous University of Barcelona"
