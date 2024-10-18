@@ -11,9 +11,8 @@ locale                   : "ES"
 title                    : "Jennifer Ahiable"
 title_separator          : "-"
 name                     : &name "Jennifer Ahiable"
-description              : # &description "personal description"
+description              : #&description "personal description"
 url                      : https://jennquantum.github.io/
-baseurl                  :""
 repository               : "jennquantum.github.io/jennquantum"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
