@@ -5,32 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
-{% include base_path %}
+## Publications
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+1. *Learning pure quantum states (almost) without regret* <br>
+**J. Lumbreras**, M. Terekhov, M. Tomamichel.<br>
+[<a href="http://aqis-conf.org/2024/program" target="_blank">AQIS24 (long talk)</a>][<a href="https://arxiv.org/abs/2406.18370" target="_blank">arXiv (2024)</a>]
+
+1. *Linear bandits with polylogarithmic minimax regret* <br>
+**J. Lumbreras**, M. Tomamichel.<br>
+[<a href="https://proceedings.mlr.press/v247/lumbreras24a.html" target="_blank">COLT (2024)</a>][<a href="https://arxiv.org/abs/2402.12042" target="_blank">arXiv (2024)</a>]
+
+
+
 
 
 
